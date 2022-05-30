@@ -7,6 +7,9 @@ export default defineConfig({
     outDir: 'build',
   },
   plugins: [react()],
+  server: {
+    open: 'http://localhost:3000'
+  },
   test: {
     coverage: {
       all: true,
