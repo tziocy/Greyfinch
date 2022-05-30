@@ -32,37 +32,7 @@
       }
     ],
     "jsx-a11y/accessible-emoji": "off",
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "aspects": [
-          "invalidHref",
-          "preferButton"
-        ],
-        "components": [
-          "Link"
-        ],
-        "specialLink": [
-          "hrefLeft",
-          "hrefRight"
-        ]
-      }
-    ],
-    "jsx-a11y/no-autofocus": "off",
-    "no-console": "warn",
-    "no-param-reassign": 0,
-    "react/function-component-definition": "off",
-    "react/jsx-props-no-spreading": "warn",
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
-    "react/no-unstable-nested-components": [
-      "warn",
-      {
-        "allowAsProps": true
-      }
-    ],
-    "simple-import-sort/exports": "error",
-    "simple-import-sort/imports": "error"
+    "jsx-a11y/no-autofocus": "off"
   },
   "settings": {
     "import/resolver": {
